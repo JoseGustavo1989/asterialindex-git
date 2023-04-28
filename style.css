@@ -1,0 +1,109 @@
+body{
+
+	
+
+}
+
+
+#banner {
+
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.primalText{
+
+	background: blueviolet;
+	padding: 20px;
+
+}
+
+
+	h1{
+
+		text-align: center;
+
+	}
+
+
+p{
+	
+	text-align: center;
+
+	}
+
+
+
+	em strong{
+
+		color: firebrick;
+
+	}
+
+
+#pharse1 {
+
+	font-size: 22px;
+
+}
+
+
+	#pharse2 {
+
+		font-size: 20px;
+
+	}
+
+
+#pharse3 {
+
+	font-size: 20px;
+
+}
+
+
+	#pharse4 {
+
+		font-size: 24px;
+
+	}
+
+
+	h2{
+
+		text-align: center;
+		background: #BBBBBB;
+
+	}
+	
+
+.items{
+
+	font-size: 17px;
+	font-style: italic;
+	background: blueviolet;
+
+}
+
+
+ul{
+
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+
+}
+
+
+	.imageProducts{
+
+		width: 55%;
+		padding: 30px;
+		background: blueviolet;
+
+	}
+
+

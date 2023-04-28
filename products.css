@@ -1,0 +1,197 @@
+header {
+
+	background-color: #BBBBBB;
+	padding: 20px;
+
+}
+
+
+
+.imageLogo{
+
+	width: 25%;
+
+	}
+
+
+.box{
+
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+	nav{
+
+		position: absolute;
+		top: 90px;
+		right: 0px;
+
+	}
+
+
+nav li{
+
+display: inline;
+margin: 0 0 0 15px;
+
+}
+
+
+nav a{
+
+text-transform: uppercase;
+color: #000000;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+
+}
+
+nav a:hover{
+
+	color: #c78c19;
+	text-decoration: underline;
+
+}
+
+
+.imageAstecalm{
+
+	width: 78%;
+
+	}
+
+
+.imageAstefluin{
+
+	width: 45%;
+
+	}
+
+
+.imageAsteverin{
+
+	width: 42%;
+
+	}
+
+
+.products {
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+
+}
+
+
+	.products li{
+
+		display: inline-block;
+		text-align: center;
+		width: 30%;
+		vertical-align: top;
+		margin: 0 1.5%;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		border-color: #000000;
+		border-width: 3px;
+		border-style: solid;
+		border-radius: 10px;
+
+	}
+
+
+.products li:hover{
+
+	border-color: #c78c19;
+
+}
+
+
+.products li:active{
+
+	border-color: #099019;
+
+}
+
+	.products h2{
+
+		font-size: 30px;
+		font-weight: bold;
+		padding: 20px;
+
+	}
+
+
+.products li:hover h2{
+
+	font-size: 40px;
+
+}
+
+
+.description {
+
+	font-size: 18px;
+	padding: 20px;
+}
+
+.price {
+
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+
+	.imageBottom{
+
+		width: 25%;
+
+	}
+	
+
+footer {
+
+	text-align: center;
+	padding: 40px;
+	background: url(img/footer.jpg)
+
+}
+
+
+	.copyRight {
+
+		color: #FFFFFF;
+		font-size: 13px;
+
+	}
+
+
+@media screen and (max-width:480px){
+
+	h1{
+
+		text-align: center;
+
+	}
+
+
+	nav{
+
+		position: static;
+		text-align: center;
+
+	}
+
+
+	.box, .products{
+		width: auto;
+	}
+	
+}
